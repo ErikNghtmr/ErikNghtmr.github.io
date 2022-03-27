@@ -129,7 +129,7 @@ body{
 
 
 
-@media all and (max-width: 980px){
+@media screen and (min-width: 321px) and (max-width: 768px){
  
     .cont-form{
         width: 80%;
