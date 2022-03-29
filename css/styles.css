@@ -318,7 +318,7 @@ body{
     background-size: cover;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 720px){
 
     .header{
         height: 60px;
@@ -396,7 +396,7 @@ body{
 
     .download{
         margin: auto;
-        width: 40%;
+        width: 60%;
         height: 35px;
     }
 
@@ -405,9 +405,11 @@ body{
     }
 
     .skills{
+        border: 1px solid black;
         width: 100%;
         height: 70vh;
         display: flex;
+        flex-wrap: wrap;
     }
 
     .javascript, .Html, .Css3{
@@ -442,7 +444,7 @@ body{
     }
 
     .cont_card{
-        width: 50%;
+        width: 85%;
         height: 50vh;
         margin: 2% auto;
     }
@@ -456,7 +458,9 @@ body{
     }
 
     .cont_card .link_pr{
-        width: 85%;
+        width: 100%;
     }
+
+
 
 }
